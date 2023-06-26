@@ -313,6 +313,9 @@ textarea:focus {
 	line-height: 152px;
 	margin-bottom: 25px;
 }
+.feature_inner .feature_img i {
+	line-height: inherit;
+}
 
 .feature_inner .feature_text .title {
 	margin-bottom: 0;
@@ -362,11 +365,14 @@ textarea:focus {
 	border-radius: 30px;
 	margin-right: 23px;
 }
-.step_inner .step_icon.briefcase {
+.single_step:nth-child(2) .step_inner .step_icon {
 	background-color: #d9d7f8a1;
 }
-.step_inner .step_icon.track {
+.single_step:nth-child(3) .step_inner .step_icon {
 	background-color: #eef6f6;
+}
+.step_inner .step_icon i {
+	line-height: inherit;
 }
 .step_inner .step_text {
 	display: inline-block;
@@ -516,7 +522,6 @@ textarea:focus {
 ==================================================*/
 .partners-section {
 	margin-top: 90px;
-	margin-bottom: 90px;
 	background-size: 100% 300px;
 	background-position: center top;
 	background-repeat: no-repeat;
